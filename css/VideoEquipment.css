@@ -1,0 +1,154 @@
+
+
+/* 内容区开始 */
+    /* 主要内容区开始 */
+    .content-top {
+        height: 325px;
+    }
+    .content-top>ul>li,
+    .hot-content>ul>li,
+    .content-hot>ul>li,
+    .video>ul>li,
+    .video-nav>ul>li,
+    .video-line li {
+        list-style: none;
+        display: inline-block;
+    }
+    li {
+        list-style-type: none;
+    }
+   
+    
+            /* 中 */
+ 
+            /* 右 */
+    .btn1,.btn2,.btn3,.btn4 {
+        width: 92px;
+        height: 32px;
+        font-family: PingFangSC-Medium;
+        font-size: 14px;
+        color: #FFFFFF;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+    .btn1 {
+        background: #206698;
+        border: 1px solid #206698; 
+    }
+    .btn2 {
+        background:#F9BE04;
+        border: 1px solid #F9BE04;
+    }
+    .btn3{
+        background:#52A3FF;
+        border: 1px solid #52A3FF;
+    }
+    .btn4 {
+        background:#206698;
+        border: 1px solid #206698;
+    }
+    .monthly li>a ,.new-review li>a{
+        display: inline-block;
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #363636;
+        margin-bottom: 12px;
+    }
+    .monthly>ul,.new-review>ul  {
+        margin-top: 18px;
+    }
+   
+    /* 热门标签 */
+    .hot-lable {
+        width: 280px;
+        height: 325px;
+        background: #fff;
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.12);
+    }
+    .lable-text {
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .lable-text span {
+        display: inline-block;
+        font-size: 14px;
+        padding: 3px 5px;
+    }
+        /* 主要内容区结束 */
+        /* 热点内容区开始 */
+    /* 圆点 */
+.new-review li>span,.monthly li>span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #206698;
+    border-radius: 50%;
+    margin-left: 11px;
+    margin-right: 8px;
+}
+.new-review li>span{
+    background: #52A3FF;
+}
+.monthly li>span{
+    background: #206698;
+}
+
+    .monthly,.new-review {
+        display: inline-block;
+        width: 280px;
+        height: 400px;
+        background: #fff;
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.12);
+    }
+    .new-review {
+        height: 500px;
+    }
+        /* 热点内容区结束 */
+        /* 碟机播放器开始 */
+    .video {
+        height: 400px;
+        margin-top: 40px;
+    }
+    .video-nav {
+        height: 40px;
+        width: 820px;
+        line-height: 30px;
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #363636;
+        border-bottom: 2px solid #F9BE04;
+        /* border: solid 1px red; */
+    }
+    .video-nav-text {
+        display: inline-block;
+        padding: 5px 12px;
+        margin-bottom: 10px;
+    }
+    .video-nav-active {
+        background-color: #F9BE04;
+    }
+    .video-content {
+        width: 587px;
+    }
+    .video-content ul>li {
+        line-height: 54px;
+    }
+    .video-line a,.video-line span {
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #363636;
+    }
+    .video-content>span {
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #206698;
+    }
+    .vcontent {
+        display: none;
+    }
+    .vcontent-selected {
+        display: block
+    }
+        /* 碟机播放器结束 */
+        
+    /* 内容区结束 */

@@ -1,0 +1,314 @@
+
+
+/* 内容区开始 */
+    /* 主要内容区开始 */
+.content-top {
+    height: 325px;
+}
+.content-top>ul>li,
+.hot-content ul>li,
+.content-hot>ul>li,
+.showbox-img li,
+.line1>ul>li,
+.line2>ul>li,
+.link li {
+    list-style: none;
+    display: inline-block;
+}
+        /* 左 */
+.showbox {
+    width: 430px;
+    height: 325px;
+    position: relative;
+    overflow: hidden;
+    border-radius:2px;
+    z-index: 1;
+}
+.showbox-img {
+    /* width: 2150px;
+    height: 325px; */
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.showbox-img li{
+   float: left;
+}
+.showbox-img img {
+    width: 430px;
+    height: 325px;
+}
+/* 圆点 */
+.dots{
+    position: absolute;
+    text-align: center;
+    bottom:20px;
+    width: 100%;
+    list-style: none;
+   }
+   .dots li{
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    background: #F9BE04;
+    margin-left:6px;
+    display: inline-block;
+    cursor: pointer;
+   }
+   .dots .active{
+    width: 20px;
+    border-radius: 25px;
+   }
+   .pre,.next{
+    position: absolute;
+    top: 35%;
+    width: 50px;
+    height: 100px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+    cursor:pointer;
+    display: none;
+   }
+   .pre{
+    left:0px;
+   }
+   .next{
+    right:0px;
+   }
+/* 箭头 */
+/* 导航栏上的字 */
+.showbox-img li>span {
+    position: absolute;
+    /* left: 0; */
+    bottom: 0;
+    display: inline-block;
+    width: 410px;
+    height: 28px;
+    /* line-height: 48px; */
+    padding:10px;
+    text-align: center;
+    opacity: 0.6;
+    background: rgba(0,0,0,1);
+    font-family: PingFangSC-Regular;
+    font-size: 17px;
+    color: #fff;
+    line-height: 21px;
+    display: none;
+}
+.showbox-img li>span>span {
+   color:  #F8A102;
+}
+        /* 中 */
+.wordspit {
+    width: 385px;
+    height: 325px;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+   
+}
+
+.wordspit1,.wordspit1 img,
+.wordspit2,.wordspit2 img,
+.wordspit3,.wordspit3 img,
+.wordspit4,.wordspit4 img{
+    width: 190px;
+    height: 160px;
+    
+}
+.wordspit3,.wordspit3 img,
+.wordspit4,.wordspit4 img {
+    margin-top: 3px;
+}
+.wordspit1 span,
+.wordspit2 span,
+.wordspit3 span,
+.wordspit4 span {
+    display: inline-block;
+    width: 180px;
+    height: 52px;
+    padding-top:8px;
+    padding-left: 10px; 
+    opacity: 0.6;
+    background: #000000;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 21px;
+}
+.wordspit1 span,
+.wordspit2 span {
+    position: absolute;
+    top: 100px;
+}
+.wordspit3 span,
+.wordspit4 span {
+    position: absolute;
+    top: 267px;
+}
+        /* 右 */
+.notice {
+    width: 280px;
+    height: 325px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+    background: white;
+}
+
+/* 圆点 */
+.notice li>span,.themonth li>span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #206698;
+    border-radius: 50%;
+    margin-left: 11px;
+    margin-right: 8px;
+}
+.notice1 li>span{
+    background: #206698;
+}
+.notice2 li>span{
+    background: #F9BE04;
+}
+.themonth li>span {
+    background: #52A3FF;
+}
+.btn1,.btn2,.btn3,.btn4 {
+    width: 92px;
+    height: 32px;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.btn1 {
+    background: #206698;
+    border: 1px solid #206698; 
+}
+.btn2 {
+    background:#F9BE04;
+    border: 1px solid #F9BE04;
+}
+.btn3{
+    background:#52A3FF;
+    border: 1px solid #52A3FF;
+}
+.btn4 {
+    background:#206698;
+    border: 1px solid #206698;
+    margin-top: 17px;
+}
+.notice li>a,.themonth li>a {
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+    margin-bottom: 12px;
+}
+.notice>ul,.themonth>ul  {
+    margin-top: 18px;
+    /* margin-left: 27px; */
+}
+.notice>ul>li,.themonth>ul>li {
+    list-style-type: none;
+}
+    /* 主要内容区结束 */
+    /* 热点内容区开始 */
+.content-hot {
+    height: 500px;
+    margin-top: 40px;
+}   
+.content-hot li>span {
+    font-family: PingFangSC-Medium;
+    font-size: 20px;
+    color: #363636;
+}
+.hot-content {
+    width: 820px;
+    height: 446px;
+    margin-top: 26px;
+    position: relative;
+}
+.line1,.line2 {
+    position: relative;
+    height: 223px;
+}
+.hot-line1 div,.hot-line2 div{
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+}
+.hot-content .hot-div1,.hot-content .hot-div2,
+.hot-content .hot-div3,.hot-content .hot-div4,
+.hot-content .hot-div5,.hot-content .hot-div6,
+.hot-content .hot-div7,.hot-content .hot-div8 {
+    width: 200px;
+    height: 208px;
+    padding: 10px 5px;
+    top: 0px;
+    
+}
+
+.hot-content .div-selected {
+    background: #fff;
+    
+}
+.hot-div1,.hot-div5 {
+    left: 0px;
+}
+.hot-div2,.hot-div6 {
+    left: 203px;
+}
+.hot-div3,.hot-div7 {
+    left: 406px;
+}
+.hot-div4,.hot-div8 {
+    left: 609px;
+}
+.hot-line1 div>img,
+.hot-line2 div>img {
+    height: 156px;
+    width: 190px;
+}
+.hot-line1 span,.hot-line2 span {
+    width: 190px;
+    height: 42px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+    line-height: 21px;
+}
+.themonth {
+    display: inline-block;
+    width: 280px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.12);
+}
+    /* 热点内容区结束 */
+    /* 友情链接开始 */
+.link {
+    height: 230px;
+    background:#fff;
+    margin-top: 28px;
+} 
+.link ul {
+    padding-left: 19px;
+
+}
+.link img {
+    height: 58px;
+    width: 134px;
+    margin-right: 17px;
+}
+.link-line2 {
+    margin-top: 16px;
+}
+    /* 友情链接结束 */
+    
+/* 内容区结束 */

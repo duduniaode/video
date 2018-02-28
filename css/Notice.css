@@ -1,0 +1,100 @@
+
+
+
+.content>ul>li,
+.information-details li{
+    list-style: none;
+    display: inline-block;
+}
+.left li {
+    list-style: none;
+}
+/* 主体内容开始 */
+.content>span {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+}
+.title {
+    height: 80px;
+    padding-top: 21px;
+    border-bottom: 2px solid #EBEBEB;
+}
+.left {
+   
+    margin-top: 20px;
+    height: 500px;
+    
+    
+}
+.notice1,.notice2,.notice3{
+    width:820px;
+    background: #fff;
+}
+.p {
+    margin-top: 40px;
+    padding-bottom: 24px;
+    
+}
+.notice1,.notice2 {
+    margin-bottom: 20px;
+}
+.notice1 p,.notice2 p,.notice3 p {
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+    line-height: 25px;
+    text-indent: 2em;
+    margin-left: 42px;
+    margin-right: 39px;
+}
+.information-title {
+    font-family: PingFangSC-Medium;
+    font-size: 20px;
+    color: #363636;
+    margin-left: 42px;
+}
+.information-details {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #AEAEAE;
+    margin-left: 42px;
+    margin-top: 13px;
+}
+#more {
+    cursor: pointer;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #206698;
+}
+
+
+/* 右 */
+.report {
+    width: 280px;
+    height: 400px;
+    /* margin-top: -838px; */
+    background: #fff;
+}
+.btn {
+    width: 92px;
+    height: 32px;
+    background: #206698;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.report a {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+}
+.report li {
+    margin-bottom: 12px;
+    margin-left: 27px;
+    list-style: disc;
+}

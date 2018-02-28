@@ -1,0 +1,133 @@
+
+.content li,
+.page-div li {
+    list-style: none;
+    display: inline-block;
+}
+/* 主体内容开始 */
+.search-result {
+    display: inline-block;
+    margin-left: 160px;
+    margin-top: 22px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+}
+.content {
+    width: 820px;
+    margin-left: 310px;
+}
+
+.search {
+    width: 464px;
+   height: 38px;
+    margin-left: 188px;
+    margin-bottom: 40px;
+}
+.search select {
+    height: 38px;
+    width: 69px;
+    border: 1px solid white;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+}
+.search input {
+    width: 307px;
+    height: 38px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+}
+.search button {
+    height: 38px;
+    width: 84px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+    background: #F9BE04;
+}
+.list1 {
+    background: #fff;
+    padding-top: 20px;
+    padding-left: 41px;
+    padding-right: 260px;
+    padding-bottom: 19px;
+    position: relative;
+    height: 161px;
+    margin-bottom: 21px;
+}
+
+.title {
+    margin-top: 20px;
+    font-family: PingFangSC-Medium;
+    font-size: 18px;
+    color: #363636;
+}
+.details {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #AEAEAE;
+    margin-top: 11px;
+    margin-bottom: 20px;
+}
+.list1 p {
+    opacity: 0.8;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+    line-height: 21px;
+}
+.img {
+    width: 228px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+}
+.list1 img {
+    width: 228px;
+    height: 200px;
+}
+
+/* 主体内容结束*/
+
+/* 分页开始 */
+.page-div {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.page-num,.page-to,.page-to input,.page-to button {
+    font-size: 14px;
+    color: #606266;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+.page-num li{
+    font-family: AppleSystemUIFont;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.page-to li{
+    font-family: PingFangSC-Regular;
+}
+.page-to input {
+    font-family: AppleSystemUIFont;
+    width: 40px;
+    height: 28px;
+    text-align: center;
+    background: #EFF2F5;
+    border: 1px solid #DCDFE6;
+    border-radius: 3px;
+}
+.page-to button {
+    margin-left: 5px;
+    font-size: 13px;
+    width: 50px;
+    height: 28px;
+    text-align: center;
+    cursor: pointer;
+}
+/* 分页结束 */

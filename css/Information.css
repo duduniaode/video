@@ -1,0 +1,237 @@
+
+
+
+
+/* 导航栏 */
+.nav {
+    /* width: 1440px; */
+}
+.nav-div {
+    /* margin-left: 160px; */
+    margin: 0 auto;
+    width: 1120px;
+    clear: both;
+    position: relative;
+}
+.nav ul {
+    /* display: inline-block; */
+}
+.nav .nav-ul {
+    margin: 0 auto;
+}
+.nav-search {
+  
+    position: absolute;
+    /* right: 0px; */
+    top: 0px; 
+    left: 887px;
+ 
+    /* margin: 0; */
+  
+}
+.search-select {
+    height: 25.8px;
+}
+
+.content>ul>li,.left li,.ceefax li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* 主体内容开始 */
+.all .content {
+    width: 1120px;
+    /* margin-right: 460px; */
+    margin: 22px auto;
+}
+.content>span {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+}
+.title {
+    height: 100px;
+    padding-top: 37px;
+    border-bottom: 2px solid #EBEBEB;
+}
+.left {
+    width:820px;
+    height:2010px;
+    background: #fff;
+    margin-top: 20px;
+    
+}
+.information-title {
+    font-family: PingFangSC-Medium;
+    font-size: 20px;
+    color: #363636;
+    padding-left: 147px;
+}
+.information-details {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #AEAEAE;
+    margin-left: 234px;
+    margin-top: 13px;
+}
+.pic1,.pic1 img,
+.pic2,.pic2 img {
+    width:700px;
+    height: 512px;
+    padding-left: 31px;
+    margin-top: 15px;
+}
+.words {
+    margin-top: 40px;
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+.words p {
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+    line-height: 25px;
+}
+
+.word {
+    margin-top: 19px;
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+.word p {
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+    line-height: 25px;
+}
+.tcode {
+    width: 208px;
+    height: 208px;
+    margin-top: 39px;
+    margin-left: 308px;
+}
+.pic3 {
+    width: 208px;
+    height: 208px;
+}
+.last-next .last,.last-next .next {
+    margin-top: 53px;
+}
+.last-next>.last {
+    margin-left: 30px;
+}
+.last-next>.next {
+    margin-right: 30px;
+}
+/* 右侧 */
+.vote {
+    width:280px;
+    height: 46px;
+    background: #f9be04;
+    border-radius: 2px;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #363636;
+    margin-top: 20px;
+}
+.report {
+    width: 280px;
+    height: 400px;
+    margin-top: 20px;
+    background: #fff;
+}
+.btn {
+    width: 92px;
+    height: 32px;
+    background: #206698;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+}
+.report a {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+}
+.report span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #206698;
+    border-radius: 50%;
+    margin-left: 11px;
+    margin-right: 8px;
+}
+.report li {
+    margin-bottom: 12px;
+    /* margin-left: 27px; */
+    list-style:none;
+}
+/* 图文资讯 */
+.ceefax {
+    margin-top: 29px;
+}
+.ceefax span {
+    font-family: PingFangSC-Medium;
+    font-size: 20px;
+    color: #363636;
+}
+.ceefax-content ul {
+    display: inline-block;
+    width: 820px;
+    height: 230px;
+    position: relative;
+}
+.ceefax-content li {
+    position: absolute;
+    top: 0px;
+}
+.line1-li1,.line2-li1 {
+    left: 0;
+}
+.line1-li2,.line2-li2 {
+    left: 203px;
+}
+.line1-li3,.line2-li3 {
+    left: 406px;
+}
+.line1-li4,.line2-li4 {
+    left: 609px;
+}
+.ceefax-content {
+    width: 820px;
+    height: 446px;
+    margin-top: 26px;
+}
+.ceefax-line1 div,.ceefax-line2 div{
+    height: 208px;
+    width: 190px;
+    padding: 10px 5px;
+    /* background: #fff; */
+}
+.ceefax-selected {
+    background:#fff;
+}
+
+.ceefax-line1 div>img,
+.ceefax-line2 div>img {
+    height: 156px;
+    width: 190px;
+}
+.ceefax-line1 span,.ceefax-line2 span {
+    width: 190px;
+    height: 42px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+    line-height: 21px;
+}
+/* 主体内容结束 */
+.footer {
+    margin-top: 332px;
+}

@@ -1,0 +1,205 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+li {
+    list-style: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.all {
+    background: #EFF2F5;
+}
+.footer li {
+    list-style: none;
+    display: inline-block;
+}
+.hide {
+    display: none;
+}
+/* 更多 */
+ .more {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #206698;
+    cursor: pointer;
+}
+/* 页头开始 */
+ .nav {
+     height: 60px;
+     line-height: 57px;
+     background-color: #272727;
+ }
+ .nav li {
+    list-style: none;	
+    display: inline-block;
+    /* margin-right: 50px; */
+    			
+ }
+ .logo {
+     margin-right: 20px;
+ }
+ .nav-text {
+   
+    cursor: pointer;
+ }
+ .nav-text a {
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: rgba(255,255,255,0.6);
+    border-bottom: 3px solid #272727;
+    
+ }
+/* 导航栏中选中 */
+ .nav-text a:hover {
+    border-color: #F9BE04;
+    color:  #F9BE04;
+    transition: 0.2s;
+ }
+ .nav .nav-active {
+    border-color: #F9BE04;
+    color:  #F9BE04;
+ }
+ /* .nav-text a:hover{
+    color:  #F9BE04;
+ } */
+ .nav li>a>img{
+     height: 60px;
+ }
+ .nav ul {
+     margin-left: 160px;
+ }
+ 
+ /**页头搜索栏*/
+ .nav-search {
+    width: 233px;
+    height: 32px;
+    position: relative;
+    margin-left: 25px;
+ }
+ .search-select {
+    border: 1px solid white;
+    border-right: none;
+    height: 26px;
+    
+ }
+ .search-input {
+    margin-top: 17.5px;
+     padding-right: 20px;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid #CECECE;
+    height: 24px;
+    position: absolute;
+    right: 38px;
+    width: 128px;
+ }
+ .search-img {
+    position: absolute;
+    top: 22px;
+    right: 40px;
+    font-family: material;
+    font-size: 20px;
+    color: #707070;
+ }
+
+/* 页头结束 */
+/* 内容区开始 */
+ .content {
+     width: 1120px;
+     margin-left: 160px;
+     margin-top: 20px;
+ }
+ /* 选中的显示 */
+ /* .main .content.selected {
+     display: block;
+ } */
+ /* 其余的隐藏 */
+ /* .content {
+     display: none;
+ } */
+/* 内容区结束 */
+
+/* 页脚开始 */
+.footer {
+    width: 100%;
+    height: 190px;
+    background: #272727;
+    margin-top: 48px;
+ }
+.footer-line1 {
+    line-height: 100px;
+}
+ .footer-link span a {
+    opacity: 0.5;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+ }
+.footer-link {
+    display: inline;    
+    margin-left: 160px;
+}
+.footer-search{
+    width: 233px;
+    height: 32px;
+    margin-left: 598px;
+    position: relative;
+}
+.footer-select {
+    border: 1px solid white;
+    border-right: none;
+    height: 26px;
+    margin-left: 48px;
+}
+.footer-input {
+    padding-right: 20px;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid #CECECE;
+    height: 24px;
+    position: absolute;
+    right: -10px;
+    width: 128px;
+}
+
+.footer-search-img {
+    position: absolute;
+    top: 3px;
+    right: -10px;
+    font-family: material;
+    font-size: 20px;
+    color: #707070;
+}
+
+.message {
+    width: 1121px;
+    height: 74px;
+    border-top: 1px solid #FFFFFF;
+    opacity: 0.5;
+    margin-left: 160px;
+    margin-top: 17px;
+}
+
+.message span {
+    display: inline-block;
+    opacity: 0.5;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+
+/* 页脚结束 */

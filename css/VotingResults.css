@@ -1,0 +1,338 @@
+
+.content>ul>li,.left li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* 主体内容开始 */
+.content>span {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+}
+.title {
+    height: 100px;
+    padding-top: 37px;
+    border-bottom: 2px solid #EBEBEB;
+}
+.left {
+    width:820px;
+    /* height:700px; */
+    background: #fff;
+    margin-top: 20px;
+    
+}
+.information-title {
+    font-family: PingFangSC-Medium;
+    font-size: 20px;
+    color: #363636;
+    margin-left: 42px;
+}
+.information-details {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #AEAEAE;
+    margin-left: 42px;
+    margin-top: 13px;
+}
+/* 投票内容 */
+.vote-content {
+    margin-top: 19px;
+    margin-left: 49px;
+    margin-right: 40px;
+}
+
+.vote-details p,.voting>div span {
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #181818;
+    line-height: 25px;
+}
+.vote-details span{
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #363636;
+}
+
+/* 投票结果 */
+.vote1 {
+    margin-top: 30px;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #363636;
+}
+
+.voteorg {
+    width: 750px;
+    height: 60px;
+    position: relative;
+}
+
+.vote2 {
+    padding-left: 50px;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+    position: absolute;
+    top: 20px;
+}
+
+.vote3 {
+    display: inline-block;
+    width: 294px;
+    height: 28px;
+    background: #F9BE04;
+    position: absolute;
+    left: 150px;
+    top: 15px;
+}
+
+.vote4 {
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    top: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+}
+
+
+/**第二个*/
+
+.voteorg1 {
+    width: 750px;
+    height: 60px;
+    position: relative;
+}
+
+.vote21 {
+    padding-left: 50px;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+    position: absolute;
+    top: 20px;
+}
+
+.vote31 {
+    display: inline-block;
+    width: 240px;
+    height: 28px;
+    background: #272727;
+    position: absolute;
+    left: 150px;
+    top: 15px;
+}
+
+.vote41 {
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    top: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+}
+
+
+/**第三个*/
+
+.voteorg2 {
+    width: 750px;
+    height: 60px;
+    position: relative;
+}
+
+.vote22 {
+    padding-left: 35px;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+    position: absolute;
+    top: 20px;
+}
+
+.vote32 {
+    display: inline-block;
+    width: 171px;
+    height: 28px;
+    background: #206698;
+    position: absolute;
+    left: 150px;
+    top: 15px;
+}
+
+.vote42 {
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    top: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+}
+
+
+/**第四个*/
+
+.voteor3 {
+    width: 750px;
+    height: 60px;
+    position: relative;
+}
+
+.vote23 {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+}
+
+.vote43 {
+    position: absolute;
+    left: 600px;
+    top: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+}
+
+.vote33 {
+    display: inline-block;
+    width: 120px;
+    height: 28px;
+    background: #6073FF;
+    position: absolute;
+    left: 150px;
+    top: 15px;
+}
+
+
+/**第五个*/
+
+.voteor4 {
+    width: 750px;
+    height: 60px;
+    position: relative;
+}
+
+.vote24 {
+    padding-left: 50px;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+    position: absolute;
+    top: 20px;
+    left: -15px;
+}
+
+.vote34 {
+    display: inline-block;
+    width: 60px;
+    height: 28px;
+    background: #54CD75;
+    position: absolute;
+    left: 150px;
+    top: 15px;
+}
+
+.vote44 {
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    top: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+}
+
+
+/**其他*/
+
+.voteor5 {
+    width: 750px;
+    height: 60px;
+    position: relative;
+}
+
+.vote25 {
+    padding-left: 50px;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+.vote35 {
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    top: 15px;
+}
+
+.vote45 {
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    top: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #363636;
+}
+.back {
+    width: 100px;
+    height: 36px;
+    background: #272727;
+    border-radius: 2px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 44px;
+    margin-bottom: 26px;
+    cursor: pointer;
+    
+}
+
+/* 右 */
+.report {
+    width: 280px;
+    height: 400px;
+    margin-top: 20px;
+    background: #fff;
+}
+.btn {
+    width: 92px;
+    height: 32px;
+    background: #206698;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+}
+.report a {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+}
+.report li {
+    margin-bottom: 12px;
+    /* margin-left: 27px; */
+    list-style: none;
+    /* cursor: pointer; */
+}
+.report span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #206698;
+    border-radius: 50%;
+    margin-left: 11px;
+    margin-right: 8px;
+}
